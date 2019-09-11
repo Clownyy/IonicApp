@@ -13,8 +13,8 @@ export class FirstPage implements OnInit {
   ngOnInit() {
   }
   
-  home(){
-    this.navCtrl.navigateRoot("/menu/first");
+  profile(){
+    this.navCtrl.navigateRoot("/menu/profile");
   }
 
 }

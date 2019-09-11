@@ -20,12 +20,16 @@ const routes: Routes = [
         path: 'second',
         loadChildren:'../second/second.module#SecondPageModule'
       },
+      { 
+        path: 'profile', 
+        loadChildren: './pages/profile/profile.module#ProfilePageModule'
+      },
     ]
   },
   {
     path: '',
     redirectTo: '/menu/first',
-  }
+  },
 ];
 
 @NgModule({

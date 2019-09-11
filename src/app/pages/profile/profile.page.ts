@@ -2,11 +2,11 @@ import { Component, OnInit } from '@angular/core';
 import { NavController } from '@ionic/angular';
 
 @Component({
-  selector: 'app-second',
-  templateUrl: './second.page.html',
-  styleUrls: ['./second.page.scss'],
+  selector: 'app-profile',
+  templateUrl: './profile.page.html',
+  styleUrls: ['./profile.page.scss'],
 })
-export class SecondPage implements OnInit {
+export class ProfilePage implements OnInit {
 
   constructor(private navCtrl:NavController) { }
 
@@ -14,7 +14,6 @@ export class SecondPage implements OnInit {
   }
 
   profile(){
-    this.navCtrl.navigateRoot('/menu/profile')
+    this.navCtrl.navigateRoot('/menu/profile');
   }
-
 }
